@@ -1,7 +1,5 @@
-CREATE DATABASE IF NOT EXISTS banco_noite;
-
+CREATE DATABASE banco_noite;
 USE banco_noite;
-
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
