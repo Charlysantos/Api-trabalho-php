@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS banco_noite;
+
+USE banco_noite;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    sobrenome VARCHAR(100) NOT NULL,
+    email VARCHAR(150) UNIQUE NOT NULL,
+    telefone VARCHAR(30) NOT NULL
+);
